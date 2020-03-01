@@ -54,3 +54,9 @@ origin = https://github.com/Guilouz/Creality-Helper-Script.git
 primary_branch = main
 managed_services = klipper
 
+[update_manager mainsail]
+type = web
+channel = beta
+repo = mainsail-crew/mainsail
+path = /usr/data/mainsail
+
